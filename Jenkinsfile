@@ -3,10 +3,10 @@ pipeline{
 
     environment {
         SONAR_PROJECT_KEY = 'LLMOOPS'
-		SONAR_SCANNER_HOME = tool 'SonarQube'
-        AWS_REGION = 'us-east-1'
-        ECR_REPO = 'my-repo'
-        IMAGE_TAG = 'latest'
+		SONAR_SCANNER_HOME = tool 'sonarQube'
+        // AWS_REGION = 'us-east-1'
+        // ECR_REPO = 'my-repo'
+        // IMAGE_TAG = 'latest'
 	}
 
     stages{
